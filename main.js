@@ -34,3 +34,24 @@ for (let i = 1; i <= 100; i++) {
     }
     
     }
+
+    // this is practice bandName. I added a band.
+
+let bandNumber = 0
+
+let takeNumber = function (i) {
+    bandNumber ++
+    return (bandNumber + ". " + i);
+    
+console.log(bandNumber);
+console.log(takeNumber);
+}
+
+const scum = takeNumber("Galactic Scum")
+console.log(scum)  // This should print "1. Galactic Scum" in the console
+
+const under = takeNumber("Underdogs")
+console.log(under)  // This should print "2. Underdogs" in the console
+
+const star = takeNumber("Star Ship")
+console.log(star)
